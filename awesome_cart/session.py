@@ -127,7 +127,7 @@ def get_quick_cache(key, awc_session=None, customer=None, prefix=None):
 		awc_session = get_awc_session()
 
 	if not customer:
-		from compat.customer import get_current_customer
+		from awesome_cart.compat.customer import get_current_customer
 		customer = get_current_customer()
 
 	customer_lbl = "None"

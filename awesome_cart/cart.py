@@ -11,7 +11,7 @@ from erpnext.shopping_cart import cart
 from erpnext.accounts.doctype.payment_request import payment_request
 
 from . import embed
-from compat.erpnext import get_address_display
+from awesome_cart.compat.erpnext import get_address_display
 from .data import \
 	map_address_widget_to_address_doctype, \
 	get_doctype_next_series, \
